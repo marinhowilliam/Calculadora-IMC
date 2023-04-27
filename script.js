@@ -16,9 +16,10 @@ const box4 = document.createElement("div")
 const outPut = document.createElement("output")
 const body = document.body
 const h1 = document.createElement("h1")
-const h2 = document.createElement("h2")
+
 
 //filhos
+
 
 
 body.appendChild(h1)
@@ -55,7 +56,9 @@ h1.style.display = "flex"
 h1.style.alignItems = "center"
 h1.style.justifyContent = "center"
 h1.style.color = "white"
-h1.style.fontWeight = "bolder, 400"
+h1.style.fontSize = "3rem"
+h1.style.fontWeight = "600"
+h1.style.fontFamily = "josefin sans"
 
 //css container
 
@@ -89,6 +92,9 @@ inputNome.style.padding = "8px 16px"
 inputNome.style.borderRadius = "5px"
 inputNome.style.textAlign = "center"
 inputNome.style.boxShadow = "rgba(83,145,199, 0.48) 6px 2px 16px 0px, rgba(83,145,199, 0.8) -6px -2px 16px 0px"
+inputNome.style.fontFamily = "josefin sans"
+inputNome.style.fontWeight = "bold"
+inputNome.style.fontSize = "1.2rem"
 inputNome.setAttribute("type", "text")
 inputNome.setAttribute("placeholder", "Nome")
 
@@ -100,6 +106,9 @@ inputPeso.style.borderRadius = "5px"
 inputPeso.style.marginRight = "25px"
 inputPeso.style.padding = "8px 16px"
 inputPeso.style.boxShadow = "rgba(83,145,199, 0.48) 6px 2px 16px 0px, rgba(83,145,199, 0.8) -6px -2px 16px 0px"
+inputPeso.style.fontFamily = "josefin sans"
+inputPeso.style.fontWeight = "bold"
+inputPeso.style.fontSize = "1.2rem"
 inputPeso.setAttribute("type", "text")
 inputPeso.setAttribute("placeholder", "Peso. Ex.: 64")
 
@@ -110,6 +119,9 @@ inputAltura.style.outline = "none"
 inputAltura.style.borderRadius = "5px"
 inputAltura.style.padding = "8px 16px"
 inputAltura.style.boxShadow = "rgba(83,145,199, 0.48) 6px 2px 16px 0px, rgba(83,145,199, 0.8) -6px -2px 16px 0px"
+inputAltura.style.fontFamily = "josefin sans"
+inputAltura.style.fontWeight = "bold"
+inputAltura.style.fontSize = "1.2rem"
 inputAltura.setAttribute("type", "text")
 inputAltura.setAttribute("placeholder", "Altura. Ex.: 1.70")
 
@@ -123,7 +135,9 @@ btnCalcular.style.background = "white"
 btnCalcular.style.boxShadow = "rgba(83,145,199, 0.56) 0px 22px 40px 4px"
 btnCalcular.style.margin = "20px"
 btnCalcular.style.outline = "none"
-btnCalcular.style.color = "black"
+btnCalcular.style.fontFamily = "josefin sans"
+btnCalcular.style.fontWeight = "bold"
+btnCalcular.style.fontSize = "1.2rem"
 btnCalcular.innerText = "Calcular"
 
 //estilo divLegenda
@@ -146,6 +160,9 @@ box1.style.boxShadow = "rgba(225, 225, 225, 0.3) 0px 25px 50px -12px"
 box1.style.height = "50%"
 box1.style.width = "120px"
 box1.style.backgroundImage = "linear-gradient( 135deg, #70F570 10%, #49C628 100%)"
+box1.style.fontFamily = "josefin sans"
+box1.style.fontWeight = "bold"
+box1.style.fontSize = "1.1rem"
 box1.textContent = "Abaixo do peso"
 
 //estilo box2
@@ -157,6 +174,9 @@ box2.style.boxShadow = "rgba(225, 225, 225, 0.3) 0px 25px 50px -12px"
 box2.style.height = "50%"
 box2.style.width = "120px"
 box2.style.backgroundImage = "linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%)"
+box2.style.fontFamily = "josefin sans"
+box2.style.fontWeight = "bold"
+box2.style.fontSize = "1.1rem"
 box2.textContent = "Peso ideial"
 
 //estilo box3
@@ -168,6 +188,9 @@ box3.style.boxShadow = "rgba(225, 225, 225, 0.3) 0px 25px 50px -12px"
 box3.style.height = "50%"
 box3.style.width = "120px"
 box3.style.backgroundImage = "linear-gradient( 135deg, #FFE985 10%, #FA742B 100%)"
+box3.style.fontFamily = "josefin sans"
+box3.style.fontWeight = "bold"
+box3.style.fontSize = "1.1rem"
 box3.textContent = "Acima do peso"
 
 //estilo box4
@@ -179,6 +202,9 @@ box4.style.boxShadow = "rgba(225, 225, 225, 0.3) 0px 25px 50px -12px"
 box4.style.height = "50%"
 box4.style.width = "120px"
 box4.style.backgroundImage = "linear-gradient( 135deg, #FDD819 10%, #E80505 100%)"
+box4.style.fontFamily = "josefin sans"
+box4.style.fontWeight = "bold"
+box4.style.fontSize = "1.1rem"
 box4.textContent = "Obesidade"
 
 
@@ -191,6 +217,9 @@ outPut.style.display = "flex"
 outPut.style.alignItems = "center"
 outPut.style.justifyContent = "center"
 outPut.style.margin = "50px 0"
+outPut.style.fontFamily = "josefin sans"
+outPut.style.fontWeight = "bold"
+outPut.style.fontSize = "1.1rem"
 
 
 //funcao
