@@ -177,7 +177,7 @@ box2.style.backgroundImage = "linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%
 box2.style.fontFamily = "josefin sans"
 box2.style.fontWeight = "bold"
 box2.style.fontSize = "1.1rem"
-box2.textContent = "Peso ideial"
+box2.textContent = "Peso ideal"
 
 //estilo box3
 
