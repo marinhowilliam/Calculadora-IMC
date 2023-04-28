@@ -229,18 +229,30 @@ btnCalcular.addEventListener("click", function () {
     let nome = inputNome.value
     if (resultado < 18.5){
         outPut.style.backgroundImage = "linear-gradient( 135deg, #70F570 10%, #49C628 100%)"
+        box1.style.height = "70%"
+        box1.style.width = "200px"
+        box1.style.borderRadius = "5px"
         outPut.textContent = `${nome}, seu IMC é: ${resultado.toFixed(1)}, você está abaixo do peso!"`
     }
     else if(resultado >= 18.5 && resultado < 24.9){
         outPut.style.backgroundImage = "linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%)"
+        box2.style.height = "70%"
+        box2.style.width = "200px"
+        box2.style.borderRadius = "5px"
         outPut.textContent = `${nome}, seu IMC é: ${resultado.toFixed(1)}, você está no peso ideal!`
     }
     else if(resultado >= 24.9 && resultado < 29.9){
         outPut.style.backgroundImage = "linear-gradient( 135deg, #FFE985 10%, #FA742B 100%)"
+        box3.style.height = "70%"
+        box3.style.width = "200px"
+        box3.style.borderRadius = "5px"
         outPut.textContent = `${nome}, seu IMC é: ${resultado.toFixed(1)}, você está acima do peso!`
     }
     else if (resultado >= 30){
         outPut.style.backgroundImage = "linear-gradient( 135deg, #FDD819 10%, #E80505 100%)"
+        box4.style.height = "70%"
+        box4.style.width = "200px"
+        box4.style.borderRadius = "5px"
         outPut.textContent = `${nome}, seu IMC é: ${resultado.toFixed(1)}, você está obeso!`
     }
 }
